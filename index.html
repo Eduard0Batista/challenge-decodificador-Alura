@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+		
+	<title>Encripta</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<header>
+		<img class="logoalura" src="imagens/logo_alura.png" alt="Logo da Alura">
+	</header>
+	<main>
+
+		<section>
+			<textarea class="escreve-texto" cols="41" rows="4" placeholder="Digite seu texto" autocomplete="off"></textarea>
+
+			<h6>&#128712; Apenas letras menúsculas e sem acento.</h6>
+			<div class="botoes">
+				<button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+				<button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+			</div>
+
+		</section>
+		
+		<section>
+			<textarea class="texto-encriptado" id="encriptado" cols="29" rows="10" autocomplete="off"></textarea>
+				<!--<p>Nenhuma mensagem encontrada</p>
+				<span>Digite um texto que você de deseja criptografar ou descriptografar</span>-->
+			<button class="btn-copiar" id="copiatexto">Copiar</button>
+		</section>
+	</main>
+
+	<footer class="rodape">
+		<div class="icones">
+			<a href="https://github.com/Eduard0Batista"><ion-icon name="logo-github" ></ion-icon></a>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

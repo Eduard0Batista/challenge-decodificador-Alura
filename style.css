@@ -1,0 +1,108 @@
+* {
+	background: #F3F5FC;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 150%;
+}
+
+.logoalura {
+	margin-top: 10px;
+	padding: 10px;
+	width: 90px;
+}
+
+main {
+	display: flex;
+	margin-bottom: 50px;
+	margin-left: 80px;
+}
+
+.escreve-texto {
+	border: none;
+	color: #0A3871;
+	margin-top: 90px;
+	text-transform: lowercase;
+	height: 220px;
+	width: 640px;
+}
+
+::placeholder {color: #0A3871;}
+	.escreve-texto:focus {
+		outline: none;
+		text-transform: lowercase;
+	}
+
+.texto-encriptado {
+	background: white;
+	background-image: url(imagens/img_fundo.svg);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+	border: 1px;
+	border-radius: 24px;
+	color: #0A3871;
+	height: 444px;
+	width: 240px;
+	margin-left: 98px;
+	padding: 20px;
+	position: fixed;
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.texto-encriptado:focus {
+	outline: none;
+	background: none;
+}
+
+.botoes {
+	display: flex;
+	margin-top: 18px;
+	justify-content: space-around;
+}
+
+.btn-desencriptar {
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	cursor: pointer;
+	height: 51px;
+	width: 210px;
+	color: #0A3871;
+	font-size: 16px;
+}
+
+.btn-encriptar {
+	background: #0A3871;
+	color: white;
+	border-radius: 24px;
+	cursor: pointer;
+	height: 51px;
+	width: 210px;
+	font-size: 16px;
+}
+
+.btn-copiar {
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	cursor: pointer;
+	margin-top: 420px;
+	margin-left: 134px;
+	height: 51px;
+	width: 210px;
+	position: absolute;
+	color: #0A3871;
+	background: white;
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 10px;
+	margin-left: 38px;
+	color: #555555;
+}
+
+ion-icon {
+	width: 55px;
+	margin: 0 373px;
+	color: #000000;
+}
