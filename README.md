@@ -1,6 +1,6 @@
 # Challenge ONE | Decodificador de texto
 
-### Aplicaçao para criptografar e descriptografar textos inspirado em um modelo proposto no curso de lógica de programação através do programa ONE da Alura.
+### Aplicação para criptografar e descriptografar textos inspirado em um modelo proposto no curso de lógica de programação através do programa ONE da Alura.
 
 ## As "chaves" de criptografia que foram utilizadas são:
 ---
